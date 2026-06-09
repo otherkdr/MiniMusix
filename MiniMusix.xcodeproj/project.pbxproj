@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D7E2EEF2FD8896400C6982A /* MiniMusix.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MiniMusix.xcodeproj; sourceTree = "<group>"; };
 		7DA6BC9F2FCF4CB6003D1AB2 /* MiniMusix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMusix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6BCAC2FCF4CB8003D1AB2 /* MiniMusixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMusixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6BCB62FCF4CB8003D1AB2 /* MiniMusixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMusixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D7E2EF02FD8896400C6982A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DA6BC962FCF4CB6003D1AB2 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +231,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DA6BCA02FCF4CB6003D1AB2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7D7E2EF02FD8896400C6982A /* Products */;
+					ProjectRef = 7D7E2EEF2FD8896400C6982A /* MiniMusix.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7DA6BC9E2FCF4CB6003D1AB2 /* MiniMusix */,
